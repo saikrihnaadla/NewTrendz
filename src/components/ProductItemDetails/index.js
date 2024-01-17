@@ -32,7 +32,6 @@ class ProductItemDetails extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    console.log(prevProps)
     const {match} = this.props
     const {params} = match
     const {id} = params
